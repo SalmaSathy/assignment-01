@@ -1,0 +1,9 @@
+  <div class="skills-container">
+            <div class="skill-1">
+            <h4 class="web-heading">I will Do Coding and Change The World</h4>
+            <p class="description">Thanks to the high demand for professional websites, a career in web development is considered “future proof”</p>
+            <button class="web-btn">Learn More</button>
+        </div>
+        
+        <img src="assets/Layer_1.png" alt="skill-1" class="skill-img">
+        </div>

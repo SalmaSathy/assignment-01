@@ -8,6 +8,16 @@
         font-style: normal;
       }
 }
+/* shared code start */
+.center{
+    text-align: center;
+}
+.second-heading{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+/* shared code end */
 /* banner start */
 .banner-bg{
     background-image: url(../images/hero-bg.png );
@@ -18,13 +28,14 @@
     text-align: center;
     margin-top: 26px;
 }
-.banner-heading{
+.heading{
     font-weight: 800;
     font-size: 48px;
 }
-.banner-description{
+.description{
     font-weight: 400;
     font-size:20px;
+    margin-top: 24px;
 }
 .contact-button{
     margin-top: 32px;
@@ -36,3 +47,30 @@
     color: aliceblue;
     border-radius: 8px;
 }
+/* main start */
+main{
+    max-width: 1140px;
+    margin: auto;
+}
+.web-dev{
+    text-align: center;
+    margin-top: 144px;
+}
+.skills-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.skill2-container{
+    display: flex;
+    gap: 40px;
+    text-align: left;
+}
+
+video{
+    width: 1000px;
+    height: 500px;
+
+}
+
+/* main end */
