@@ -48,13 +48,15 @@
     border-radius: 8px;
 }
 /* main start */
-main{
+.main{
     max-width: 1140px;
     margin: auto;
 }
 .web-dev{
+  
     text-align: center;
     margin-top: 144px;
+    /* border: 5px solid blue; */
 }
 .skills-container{
     display: flex;
@@ -65,12 +67,26 @@ main{
     display: flex;
     gap: 40px;
     text-align: left;
+   
 }
 
 video{
-    width: 1000px;
+    width: 1140px;
     height: 500px;
+    /* border: 5px solid red; */
 
 }
+/* target start */
+ 
+  .targets-container{
+    display: flex;
+    gap: 24px;
+  }
+  .target{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+  }
+  /* target end */
 
 /* main end */
