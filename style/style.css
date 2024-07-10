@@ -1,12 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-*{
-    .azeret-mono-<normal> {
+body{
         font-family: "Azeret Mono", monospace;
-        font-optical-sizing: auto;
-        font-weight: <weight>;
-        font-style: normal;
-      }
+
 }
 /* shared code start */
 .center{
@@ -16,6 +12,9 @@
     font-size: 24px;
     font-weight: 700;
     line-height: 36px;
+}
+.btn{
+    text-decoration: none;
 }
 /* shared code end */
 /* banner start */
@@ -48,15 +47,14 @@
     border-radius: 8px;
 }
 /* main start */
-.main{
+main{
     max-width: 1140px;
     margin: auto;
 }
-.web-dev{
+.web-dev-container{
   
     text-align: center;
     margin-top: 144px;
-    /* border: 5px solid blue; */
 }
 .skills-container{
     display: flex;
@@ -87,6 +85,70 @@ video{
     border-radius: 5px;
     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
   }
+  .colorh{
+    background-color:#FFCBCB;
+  }
+  .colorc{
+    background-color:#E2BBE9;
+  } .colorj{
+    background-color:#FFF5E1;
+  }
   /* target end */
+  /* support start */
+  .support-container{
+        text-align: center;
+        margin-top: 70px;
+        background-image: url(../images/handshake.jpg );
+        height: 315px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+       
+  }
+  .support-heading{
+    padding-top: 70px;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+  }
+ .support-container input{
+    width: 516px;
+    height: 39px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+ }
+ .support-container button{
+    width: 120px;
+    height:39px ;
+    border: none;
+    border-radius: 8px;
+
+
+ }
+  /* support end */
 
 /* main end */
+/* footer start */
+.end{
+    margin-top: 80px;
+    width: 1250px;
+    height: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+.f-heading{
+    font-weight: 600;
+    font-size: 16px;
+}
+.footer ul li{
+    display: inline;
+    gap: 15px;
+}
+/* footer end */
