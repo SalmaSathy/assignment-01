@@ -43,8 +43,11 @@ body{
     width: 208px;
     height: 66px;
     background-color: black;
-    color: aliceblue;
+    color:white;
     border-radius: 8px;
+}
+.c_btn{
+    color: white;
 }
 /* main start */
 main{
